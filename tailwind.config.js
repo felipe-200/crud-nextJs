@@ -1,20 +1,17 @@
 module.exports = {
-  content: {
-    content: [
+  content: [
       "./src/pages/**/*.{js,ts,jsx,tsx}",
       "./src/components/**/*.{js,ts,jsx,tsx}",
-    ],
-    safeList: [
-      /^bg-/,
-      /^to-/,
-      /^from-/,
-    ],
-    SafeArray: [
-      /^bg-/,
-      /^to-/,
-      /^from-/,
-    ],
-  },
+    // safeList: [
+    //   /^bg-/,
+    //   /^to-/,
+    //   /^from-/,
+    // ],
+    // SafeArray: [
+    //   /^bg-/,
+    //   /^to-/,
+    //   /^from-/,
+  ],
   theme: {
     extend: {},
   },
